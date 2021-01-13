@@ -24,6 +24,7 @@
 
 .collection-item-text {
     padding: 1rem .5rem 1rem .5rem;
+    min-height: 150px;
 }
 
 .collection-item-text h3 {

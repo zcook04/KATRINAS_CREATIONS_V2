@@ -1,0 +1,179 @@
+footer {
+    width: 100%;
+    height: 450px;
+    background-color: var(--color-primary-dark);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container {
+    display: flex;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    max-width: 1440px;
+    color: var(--color-text-light);
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer-left {
+    height: 100%;
+    flex: 1;
+    border-right: 1px solid var(--color-text-light);
+    padding-right: 2rem;
+}
+
+.footer-middle {
+    height: 100%;
+    flex: 1;
+    border-right: 1px solid var(--color-text-light);
+    padding: 0px 2rem;
+}
+
+.footer-right {
+    height: 100%;
+    flex: 1;
+    padding: 0px 2rem;
+}
+
+footer h3 {
+    color: var(--color-text-light);
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    color: var(--color-primary-pink);
+    font-family: var(--font-text-primary);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+footer a:hover {
+    color: var(--color-text-light);
+    stroke: var(--color-text-light)
+}
+
+footer .footer-contact-us-text {
+    font-family: var(--font-text-primary);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+.footer-copyright {
+    font-family: var(--font-text-primary);
+    font-weight: 400;
+    font-size: .85rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-social-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+.footer-social-container svg {
+    fill: var(--color-primary-pink);
+}
+
+
+.footer-social-container svg:hover {
+    fill: var(--color-text-light);
+    cursor: pointer;
+}
+
+.footer-email-svg {
+    fill: var(--color-primary-dark);
+    stroke: var(--color-primary-pink);
+    padding-top: .2rem;
+    margin-right: .5rem;
+}
+
+.footer-shop-links {
+    font-family: var(--font-text-primary);
+    color: var(--color-primary-pink);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.footer-about-links {
+    font-family: var(--font-text-primary);
+    color: var(--color-primary-pink);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+    display: inline;
+}
+
+.footer-faq-links {
+    font-family: var(--font-text-primary);
+    color: var(--color-primary-pink);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+
+footer .footer-newsletter-text {
+    font-family: var(--font-text-primary);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+.footer-newsletter input {
+    display: block;
+    background: var(--color-primary-dark);
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 2rem;
+    padding-bottom: 5px;
+    color: white;
+    width: 70%;
+}
+
+.footer-newsletter input::placeholder {
+    color: white;
+}
+
+.footer-newsletter input:focus {
+    outline: none;
+}
+
+.footer-newsletter button {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 1px solid var(--color-text-light);
+    background: var(--color-primary-pink);
+    color: var(--color-primary-dark);
+    font-weight: 600;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+.footer-newsletter button:hover {
+    cursor: pointer;
+}
