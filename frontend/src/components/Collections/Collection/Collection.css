@@ -1,0 +1,41 @@
+.collection-item {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.collection-item-img {
+    height: 70%;
+    border: 1px solid var(--color-primary-dark);
+    transition: all .5s ease;
+    z-index: 2;
+}
+
+.collection-item-img:hover {
+    transform: scale(1.025) translateZ(0);
+    cursor: pointer;
+}
+
+.collection-item-text {
+    height: 30%;
+}
+
+.collection-item-text {
+    padding: 1rem .5rem 1rem .5rem;
+}
+
+.collection-item-text h3 {
+    color: var(--color-primary-dark);
+    font-family: var(--font-heading-primary);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.collection-item-text p {
+    color: var(--color-primary-dark);
+    text-align: center;
+    margin-top: 1rem;
+}

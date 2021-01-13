@@ -1,0 +1,45 @@
+.main-header {
+    height: 50px;
+    background: var(--color-primary-dark);
+    color: var(--color-text-light);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    opacity: .95;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.header-container a {
+    color: var(--color-text-light);
+    text-decoration: none;
+}
+
+.left-nav a {
+    padding: 3rem;
+    padding-left: 0;
+}
+
+.left-nav a:hover {
+    cursor: pointer;
+    color: var(--color-primary-pink);
+}
+.right-nav a {
+    padding: 1rem;
+    padding-right: 0;
+}
+
+.right-nav a:hover {
+    cursor: pointer;
+    color: var(--color-primary-pink);
+}
