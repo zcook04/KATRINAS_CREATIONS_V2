@@ -8,8 +8,19 @@ import img3 from '../../images/headband400pxW.jpg'
 const Collections = (props) => {
     return (
         <section className="section-collections">
+            <div className="heading-collections-container">
+                    <div className="heading-collections-left">
+                        <div className="heading-line"></div>
+                    </div>
+                    <div className="heading-collections-title">
+                        <h2 className="collections-h2">Browse Our Collections</h2>
+                        <div className="heading-line-inline"></div>
+                    </div>
+                    <div className="heading-collections-right">
+                    </div>
+            </div>
             <div className="collections-container">
-                <h2 className="collections-h2">BROWSE OUR COLLECTIONS</h2>
+
                 <div className="collections-bg">
                     <div className="collections-bg-top"></div>
                     <div className="collections-bg-bottom"></div>
