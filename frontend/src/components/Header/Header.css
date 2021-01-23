@@ -23,23 +23,35 @@
 .header-container a {
     color: var(--color-text-light);
     text-decoration: none;
+
 }
 
 .left-nav a {
     padding: 3rem;
     padding-left: 0;
+    font-family: var(--font-heading-primary);
+    font-size: 1.5rem
 }
 
 .left-nav a:hover {
     cursor: pointer;
-    color: var(--color-primary-pink);
 }
+
 .right-nav a {
     padding: 1rem;
     padding-right: 0;
+    margin-left: 4rem;
 }
 
 .right-nav a:hover {
     cursor: pointer;
     color: var(--color-primary-pink);
+}
+
+.header-katrinas {
+    color: var(--color-text-light)
+}
+
+.header-creations {
+    color: var(--color-primary-pink)
 }

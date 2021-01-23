@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Poppins:wght@300;400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
 :root {
     --color-primary-dark: #753540;
     --color-secondary-dark: #75585D;
@@ -7,7 +9,7 @@
     --color-primary-pink: #F7B9C3;
     --color-secondary-pink: #F56E84;
     --color-text-light: #ffffff;
-    --font-heading-primary: 'Poppins', sans-serif;
+    --font-heading-primary: 'Dancing Script', sans-serif;
     --font-text-primary: 'Open Sans', sans-serif;
     --font-heading-size: 1.5rem;
     --font-paragraph-size: 1rem;
@@ -23,4 +25,9 @@ body {
     font-family: var(--font-text-primary);
     font-size: var(--font-paragraph-size);
     overflow-x: hidden;
+}
+
+.main-content {
+    min-height: 70vh;
+    margin-top: 3rem;
 }

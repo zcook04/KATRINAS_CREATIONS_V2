@@ -1,10 +1,10 @@
 import React from 'react'
 import './Testimonials.css'
 import Testimonial from './Testimonial/Testimonial'
-import customer1 from '../../images/src-images/customer1.jpg'
-import customer2 from '../../images/src-images/customer2.jpg'
-import customer3 from '../../images/src-images/customer3.jpg'
-import customer4 from '../../images/src-images/customer4.jpg'
+import customer1 from '../../../images/src-images/customer1.jpg'
+import customer2 from '../../../images/src-images/customer2.jpg'
+import customer3 from '../../../images/src-images/customer3.jpg'
+import customer4 from '../../../images/src-images/customer4.jpg'
 
 const Testimonials = () => {
     return (

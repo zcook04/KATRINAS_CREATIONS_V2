@@ -14,9 +14,9 @@ const Footer = ({email, company}) => {
                         <p className="footer-contact-us-text">Have an inquiry, a special request, feedback, or just want to chat?  Send Us a message.  We will respond within 24 hours.</p>
                         <p><a href="_blank">
                             <svg className="footer-email-svg" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 7L2 2H18L10 7Z" fill-opacity="0.3"/>
-                                <path d="M18 1H2C1.44772 1 1 1.44772 1 2V14C1 14.5523 1.44772 15 2 15H18C18.5523 15 19 14.5523 19 14V2C19 1.44772 18.5523 1 18 1Z" stroke-width="2" stroke-linecap="round"/>
-                                <path d="M1 2.5L10 8L19 2.5" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M10 7L2 2H18L10 7Z" fillOpacity="0.3"/>
+                                <path d="M18 1H2C1.44772 1 1 1.44772 1 2V14C1 14.5523 1.44772 15 2 15H18C18.5523 15 19 14.5523 19 14V2C19 1.44772 18.5523 1 18 1Z" strokeWidth="2" strokeLinecap="round"/>
+                                <path d="M1 2.5L10 8L19 2.5" strokeWidth="2" strokeLinecap="round"/>
                             </svg>
                             {email}
                         </a></p>

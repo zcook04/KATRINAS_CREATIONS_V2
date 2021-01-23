@@ -1,18 +1,19 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 const Header = (props) => {
     return (
         <header className="main-header">
             <div className="header-container">
             <nav className="left-nav">
-                <a href="home.html">Home</a>
-                <a href="shop.html">Shop</a>
+            <Link to="/"><span className="header-katrinas">Katrinas</span><span className="header-creations">Creations</span></Link>
             </nav>
-            <div className="news-ticker">{props.newsTicker || "New holiday deals arriving on 1/22/21"}</div>
             <nav className="right-nav">
-                <a href="account.html">My Account</a>
-                <a href="cart.html">Cart</a>
+                <Link to="/">Home</Link>
+                <Link to="/shop">Shop</Link>
+                <Link to="/myaccount">My Account</Link>
+                <Link to="/cart">Cart</Link>
             </nav>
             </div>
         </header>

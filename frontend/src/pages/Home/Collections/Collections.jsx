@@ -1,9 +1,9 @@
 import React from 'react'
 import './Collections.css'
 import Collection from './Collection/Collection'
-import img1 from '../../images/t-shirt-girl400pxW.jpg'
-import img2 from '../../images/infant400pxW.jpg'
-import img3 from '../../images/headband400pxW.jpg'
+import img1 from '../../../images/t-shirt-girl400pxW.jpg'
+import img2 from '../../../images/infant400pxW.jpg'
+import img3 from '../../../images/headband400pxW.jpg'
 
 const Collections = (props) => {
     return (
