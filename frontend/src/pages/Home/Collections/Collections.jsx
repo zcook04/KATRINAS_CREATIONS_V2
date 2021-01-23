@@ -26,7 +26,7 @@ const Collections = (props) => {
                     <div className="collections-bg-bottom"></div>
                     <div className="section-collection">
                         <Collection img={img1} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida lobortis potenti morbi a leo fames. Faucibus " collectionType="t-shirt image"
-                        collectionTitle="Womens T-Shirts"/>
+                        collectionTitle="Custom T-Shirts"/>
                         <Collection img={img2} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida lobortis potenti morbi a leo fames. Faucibus " collectionType="infant image" collectionTitle="Infant Attire"/>
                         <Collection img={img3} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida lobortis potenti morbi a leo fames. Faucibus " collectionType="headband image" collectionTitle="Headbands"/>
                     </div>
